@@ -9,7 +9,12 @@
   
   <h1> Jarod Ho's Website </h1>
 
-  <a href="apps.html"> Apps </a>
+    <ul>
+    <li><a href="index.html"> Home </a> </li>
+    <li><a href="apps.html"> Apps </a> </li>
+    <li><a href="art.html"> Art </a> </li>
+    
+  </ul>
   
   <img src="Artifact.png" alt="my artifact">
   
@@ -30,10 +35,24 @@
     text-align: center;
     font-size: 100px;    
      }
-    
-    
-    
+    ul {
+  list-style-type: none;
+   margin: 0;
+  padding: 0;
+  background-color: lightblue;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
 
+li {
+  padding: 20px 60px;
+  display: inline;
+}
+
+li a:hover {
+  background-color: yellow;
 }
     </style>
   
